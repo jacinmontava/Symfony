@@ -14,7 +14,9 @@ class PonenteRepository extends EntityRepository
 		            ->getResult();
 	}
 }
-
+/*
+ * prueba git
+ */
 
 
 ?>
