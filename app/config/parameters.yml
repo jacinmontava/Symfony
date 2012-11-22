@@ -1,0 +1,14 @@
+parameters:
+    database_driver: pdo_mysql
+    database_host: localhost
+    database_port: null
+    database_name: desymfony
+    database_user: desymfony
+    database_password: desymfony
+    mailer_transport: smtp
+    mailer_host: localhost
+    mailer_user: null
+    mailer_password: null
+    locale: en
+    secret: 7d8f416e6a25d67db7a68ba61b52c693
+    database_path: null

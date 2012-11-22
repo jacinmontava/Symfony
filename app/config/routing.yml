@@ -1,0 +1,12 @@
+desymfony:
+    resource: "@DesymfonyBundle/Resources/config/routing.yml"
+    prefix:   /
+    
+estatica:
+    pattern: /sitio/{nombre}/
+    defaults: {_controller: DesymfonyBundle:Default:estatica}
+
+# Internal routing configuration to handle ESI
+#_internal:
+#    resource: "@FrameworkBundle/Resources/config/routing/internal.xml"
+#    prefix:   /_internal

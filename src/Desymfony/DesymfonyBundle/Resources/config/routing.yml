@@ -1,0 +1,7 @@
+desymfony_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: DesymfonyBundle:Default:index }
+    
+ponentes:
+    pattern:  /ponentes/
+    defaults: { _controller: DesymfonyBundle:Ponente:index }
